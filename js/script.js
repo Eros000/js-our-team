@@ -36,3 +36,29 @@ const companyEmployees = [
             immagine: 'barbara-ramos-graphic-designer.jpg' ,
         },
 ]
+
+
+for (let index = 0; index < companyEmployees.length; index++) {
+    const element = companyEmployees[index];
+    
+    for (const key in element) {
+        console.log (key, element[key])
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
