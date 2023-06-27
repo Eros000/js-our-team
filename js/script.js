@@ -43,7 +43,8 @@ for (let index = 0; index < companyEmployees.length; index++) {
     
     for (const key in element) {
         console.log (key, element[key])
-    }
+
+    }    
 
 }
 
